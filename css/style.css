@@ -118,3 +118,9 @@ body::-webkit-scrollbar-track {
 body::-webkit-scrollbar-thumb {
 background: #2274a1;
 }
+
+.dog{
+    position: absolute;
+    padding: 250px;
+    left: 400px;
+}
