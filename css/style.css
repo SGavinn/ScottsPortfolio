@@ -5,13 +5,16 @@
 }
 
 nav{
+    overflow: hidden;
     display: flex;
+    width: 100%;
+    position: fixed;
     justify-content: space-around;
     align-items: center;
-    min-height: 8vh;
+    min-height: 6vh;
     background-color: rgb(122, 43, 43);
     font-family: 'Poppins', sans-serif;
-    box-shadow: 0 10px 4px -1px rgba(25,25,25,25);
+    box-shadow: 0 10px 4px -1px white;
 }
 
 .logo{
@@ -96,6 +99,7 @@ list-style: none;
     }
 }
 .landing {
+    padding-top: 3rem;
     width: 100%;
     height: 50rem;
     justify-content: center;
@@ -106,46 +110,34 @@ list-style: none;
     display: flex;
     width: 100%;
     height: 30rem;
+    padding-top: 1rem;
 }
 .container {
     padding: 10px 10px 0px 10px;
     display: block;
     align-content: center;
-    position: absolute;
 
 }
-.intro {
-    font-size: 100px;
-    font-family: 'Poppins', sans-serif;
-    position: absolute;
-}
-.study{
-    position: relative;
-    font-size: 20px;
-    font-family: 'Poppins', sans-serif;
-    top: 18rem;
-}
-.sg{
-    padding: 0rem 0rem 0rem 40rem;
+.me{
+    top: 0rem;
+    right: 0rem;
     position: relative;
     bottom: 20rem;
-
+    float: left;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+#maintext {
+    position:relative;
+    float:right;
+    text-align:left;
+    font-size:60px;
+    z-index:1;
+    font-family: 'Poppins', sans-serif;
+    left: 2rem;
+}
+#maintext sub{
+font-size: 20px;
+float: right;
+}
 
 .toggle .line1{
     transform: rotate(-45deg) translate(-5px,6px);
